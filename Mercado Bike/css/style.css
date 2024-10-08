@@ -1,0 +1,74 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+nav{
+    display: flex;
+    background-color: #141811;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    font-size: 1.3rem;
+    padding: 20px;
+}
+.cesta{
+    border-radius: 15px;
+    display: flex;
+    height: 80px;
+}
+
+.Principal{
+    background-color: #d4d4d4;
+}
+.flex{
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    margin-block: 30px;
+    justify-content: space-around;
+    padding-bottom: 50px;
+    
+
+}
+.card{
+    padding: 20px;
+    flex-wrap: wrap;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 300px;
+    height: 500px;
+    background-color: white;
+    border-radius: 15px;
+}
+.card img{
+    width: 200px;
+    height: 200px;
+}
+h1{
+    font-size: 2.3rem;
+}
+.titulo{
+    padding: 40px;
+}
+p{
+    padding: 10px;
+}
+.risco{
+    text-decoration: line-through;
+}
+.bicicleta{
+    display: flex;
+    color: white;
+    background-color: lightgreen;
+    border-radius: 15px;
+    width: 250px;
+    height: 40px;
+    justify-content: center;
+    align-items: center;
+}
+
+.carrinho{
+    border-radius: 15px;
+}
